@@ -1,0 +1,115 @@
+@charset "utf-8";
+#body{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-family: Myriad Pro;
+	color: #464646;
+}
+#header{
+	position: fixed;
+	background-color: #662b90;
+	height: 50px;
+	width: 100%;
+	padding: 20px;
+	margin: 0px;
+	border: 0px;
+	margin-top: -50px;
+}
+#header-wrapper{
+	height: 50px;
+	width: 100%;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+#header-left{
+	align-content: right;
+	align-items: right;
+	float: left;
+	width: 400px;
+}
+#header-right{
+	align-content: center;
+	float: right;
+	width: 400px;
+	height: 50px;
+	padding: 0px;
+	padding-top: 20px;
+}
+.header-links{
+	color: white;
+	padding-right: 15px;
+	outline-style: none;
+	text-decoration-line: none;
+}
+.header-links:hover{
+	color: aqua;
+}
+.body-links{
+	color: #F3F3F3;
+	text-decoration-line: none;
+	background-color: #662b90;
+	outline-color: #191919;
+	outline-style: solid;
+	outline-width: thin;
+	padding: 5px;
+	
+}
+.body-links:hover{
+	background-color: #191919;
+}
+#bodytable{
+	width: 75%;	
+}
+#bodydiv{
+	background: url(images/theeather2.jpg);
+	border: 0;
+	padding: 0;
+	margin: 0;
+    margin-top: 50px;;
+	background-position: center;
+	background-position: top;
+}
+#intro{
+	color: white;
+	font: myriad pro;
+}
+#content{
+	width: 100%;
+	padding-top: 100px;
+}
+td{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+tr{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#content-h1{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 50px;
+	color: #662b90;
+}
+
+#input {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footer{
+	height: 50px;
+	text-align: right;
+	color: #EBEBEB;
+	background-image: url(images/footer-img.jpg);
+	padding-top: 30px;
+	padding-right: 30PX;
+	margin-top: 50px;
+}
